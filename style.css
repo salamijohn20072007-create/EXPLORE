@@ -1,0 +1,220 @@
+/* === Fonts and Colors === */
+body {
+  font-family: 'Nunito', sans-serif;
+  color: #fff;
+  margin: 0;
+  background: linear-gradient(135deg, gold, black, black);
+  background-attachment: fixed;
+  scroll-behavior: smooth;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* === Navigation === */
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 10%;
+  background: rgba(0,0,0,0.4);
+  backdrop-filter: blur(10px);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.logo {
+  font-size: 1.8rem;
+  font-weight: 800;
+  color: #fff;
+  width: 30px;
+}
+
+.menu a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+  transition: 0.3s;
+}
+.menu a:hover {
+  color: #00c2cb;
+}
+
+/* === Header === */
+.header-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 100px 10%;
+  flex-wrap: wrap;
+}
+
+.header-content {
+  max-width: 500px;
+}
+
+.header-content .subtitle {
+  color: #00c2cb;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.header-content .title {
+  font-size: 3rem;
+  margin: 10px 0;
+}
+
+.intro {
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.btn-primary {
+  display: inline-block;
+  background: goldenrod;
+  color: #fff;
+  padding: 12px 30px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.btn-primary:hover {
+  background: #fff;
+  color: #2b1055;
+}
+
+.header-img {
+  max-width: 400px;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+}
+
+/* === Sections === */
+.section-title {
+  text-align: center;
+  font-size: 2.2rem;
+  margin: 60px 0 30px;
+  color: #fff;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  padding: 0 10%;
+}
+
+/* === Skill Cards === */
+.card {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 30px;
+  border-radius: 20px;
+  max-width: 300px;
+  text-align: center;
+  transition: 0.3s;
+}
+.card:hover {
+  transform: translateY(-10px);
+  background: rgba(255, 255, 255, 0.2);
+}
+.card img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+/* === Work Section === */
+.work-card {
+  background: rgba(255,255,255,0.1);
+  border-radius: 15px;
+  overflow: hidden;
+  width: 250px;
+  transition: 0.3s;
+}
+.work-card:hover {
+  transform: scale(1.05);
+}
+.work-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+/* === Testimonials === */
+.testimonial {
+  background: rgba(255,255,255,0.15);
+  border-radius: 15px;
+  padding: 20px;
+  max-width: 300px;
+  transition: 0.3s;
+}
+.testimonial:hover {
+  transform: translateY(-8px);
+}
+.client {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+}
+.client img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+/* === Contact Section === */
+.contact-section {
+  text-align: center;
+  padding: 80px 10%;
+  background: rgba(0,0,0,0.4);
+  border-top: 1px solid rgba(255,255,255,0.2);
+}
+
+.contact-text {
+  max-width: 600px;
+  margin: 0 auto 30px;
+  line-height: 1.7;
+}
+
+.contact-form input {
+  width: 250px;
+  padding: 12px;
+  border: none;
+  border-radius: 20px;
+  margin: 10px;
+  outline: none;
+}
+.contact-form button {
+  border: none;
+  cursor: pointer;
+}
+
+/* === Socials === */
+.socials {
+  margin-top: 30px;
+}
+.socials img {
+  width: 40px;
+  margin: 0 10px;
+  transition: 0.3s;
+  border-radius: 50%;
+}
+.socials img:hover {
+  transform: scale(1.2);
+}
+
+/* === Footer === */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: rgba(0,0,0,0.6);
+  font-size: 0.9rem;
+}
+  
